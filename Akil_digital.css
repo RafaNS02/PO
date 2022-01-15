@@ -1,0 +1,146 @@
+body {
+    background-color: #3f3f3f;
+    margin:0;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    height: 165px;
+    width: 100%;
+    background-color: #3f3f3f;
+    top: 0;
+    position: fixed;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+nav .empresa {
+    margin: 0;
+    padding: 0;
+    display:list-item;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+    margin-right: 12%;    
+    margin-bottom: 5px;
+}
+nav p {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Coda', 'cursive';
+}
+nav h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Coda', 'cursive';
+}
+
+nav .logo img {
+   width: 149px; 
+   height: 147px;
+   
+}
+
+header {
+    margin-top: 175px;
+}
+
+header .barra {
+    display:flex;
+    justify-content: flex-start;
+    background-color: #34343c;
+    margin-left: 8px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 8px;
+    flex-wrap: wrap;
+}
+
+header .iconosj {
+    display:flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+header .facebook img {
+    width: 35px;
+    height: 37px;
+    margin-right: 8px;
+}
+
+header .instagram img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+header .youtube img {
+    width: 40px;
+    height: 40px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 100px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    flex-wrap: wrap;
+}
+
+.fotografias {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 8px;
+    margin-right: 8px;
+    justify-content: space-between;
+    height: 40vh;
+    flex-direction: row;
+    margin-top:12px
+}
+
+@media (max-width:400px) {
+    .fotografias {
+        flex-direction: column;
+    }
+}
+
+.andrea {
+    background-image: url(Imagenes/andrea.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 40% 50%;
+    border-radius: 3px;
+}
+.pamela {
+    background-image: url(Imagenes/pamela.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 40% 50%;
+    margin-left: 6px;
+    border-radius: 3px;
+}
+.quien_sabe {
+    background-image: url(Imagenes/quien_sabe.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 40% 50%;
+    margin-left: 6px;
+    border-radius: 3px;
+}
